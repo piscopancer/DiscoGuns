@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.company {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-name {
+  font-family: var(--Bebas-font);
+}
