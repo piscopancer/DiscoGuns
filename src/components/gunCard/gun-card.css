@@ -1,0 +1,15 @@
+.gun-card {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(-45deg, var(--black), var(--gray));;
+  box-shadow: 0px 5px 10px black;
+}
+.gun-image {
+  width: 100%;
+  height: auto;
+}
+.gun-name {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: var(--Kanit-font);
+}

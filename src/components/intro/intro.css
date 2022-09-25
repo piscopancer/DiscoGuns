@@ -1,0 +1,21 @@
+.intro {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin: 100px 30px 20px 30px;
+}
+.intro-title {
+  display: block;
+  font-size: 70px;
+  font-family: var(--Bebas-font);
+}
+.intro-details {
+  font-size: 20px;
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .intro {
+    margin: 100px 30px 100px 30px;
+  }
+}

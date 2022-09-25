@@ -1,18 +1,21 @@
-import './styles/App.css';
-import Header from './components/header';
-import Intro from './components/intro';
-import Background from './assets/images/interface/background-3.jpg'; 
+import React from 'react';
+import "/WebDev/disco-guns/src/app.css";
+import Header from './components/header/header';
+import Intro from './components/intro/intro';
+import Background from './assets/images/interface/background-0.png'; 
+import Main from './components/main/main'; 
 
 function App() {
   return (
     <div className='App'>
-      <img className='header-image' src={Background} alt=''/>
-      <div className='container'>
-        <div className='header-group'>
+      <div className='top'>
+        <img className='header-image' src={Background} alt=''/>
+        <div className='header-box'>
           <Header/>
           <Intro/>
         </div>
       </div>
+      <Main/>
     </div>
   );
 }
