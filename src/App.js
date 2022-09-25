@@ -4,6 +4,7 @@ import Header from './components/header/header';
 import Intro from './components/intro/intro';
 import Background from './assets/images/interface/background-0.png'; 
 import Main from './components/main/main'; 
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </div>
       </div>
       <Main/>
+      <Footer/>
     </div>
   );
 }

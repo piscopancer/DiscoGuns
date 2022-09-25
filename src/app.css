@@ -9,6 +9,8 @@
   margin: 0;
   padding: 0;
 
+  transition: 0.2s;
+
   --black: #141415;
   --gray: #222124;
   --gray-light: #3a3a3c;
@@ -17,7 +19,7 @@
   --blue-light: #5d73f0;
 
   --Bebas-font: 'Bebas Neue';
-  --Kanit-font: 'Kanit';
+  --Kanit-font: 'Kanit', system-ui;
 }
 body {
   background-color: var(--black);

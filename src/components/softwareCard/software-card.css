@@ -1,0 +1,26 @@
+.software-card {
+  align-self: center;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+  align-items: center;
+}
+.software-card .app {
+  max-width: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.software-card .icon {
+  margin: 5px;  
+}
+.software-card .name {
+  font-family: var(--Bebas-font);
+  text-align: center;
+}
+.software-card .summary {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+}

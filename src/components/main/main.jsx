@@ -11,8 +11,10 @@ import ak47 from '../../assets/images/guns/ak47.png';
 import aa12 from '../../assets/images/guns/aa12.png';
 import mk14 from '../../assets/images/guns/mk14.png';
 import m60e4 from '../../assets/images/guns/m60e4.png';
-import { ReactComponent as Warning } from '../../assets/svgs/comment.svg';
-
+import { ReactComponent as Comment } from '../../assets/svgs/comment.svg';
+import SoftwareCard from '../softwareCard/software-card';
+import Blender from '../../assets/images/interface/blender.png';
+import Unity from '../../assets/images/interface/unity.png';
 
 const Main = () => {
   return (
@@ -59,21 +61,18 @@ const Main = () => {
           <GunCard gunName='M60E4' gunImage={m60e4}/>
         </div>
         <div className='guns-warning'>
-          <Warning className='warning-icon'/>
+          <Comment className='warning-icon'/>
           <p className='warning-text'>The gallery does not show the whole collection — I am just too lazy to render all of the items</p>
         </div>
       </div>
       <div className='story'>
-        <Headline text={'The Story'}/>
+        <Headline text='The Story'/>
         <div className='software'>
-          <div className='Blender'>
-
-          </div>
-          <div className='Unity'>
-            
-          </div>
+          <SoftwareCard icon={Unity} name='Unity' summary='A game engine I use to develop games and for which this gun-pack has been originally made for'></SoftwareCard>
+          <SoftwareCard icon={Blender} name='Blender' summary='A 3D modeling app where I have created and rendered all models'></SoftwareCard>
         </div>
       </div>
+      
     </div>
   )
 }
