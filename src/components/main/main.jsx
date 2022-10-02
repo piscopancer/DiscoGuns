@@ -69,7 +69,7 @@ const Main = () => {
         <Headline text='The Story'/>
         <div className='software'>
           <SoftwareCard icon={Unity} name='Unity' summary='A game engine I use to develop games and for which this gun-pack has been originally made for'></SoftwareCard>
-          <SoftwareCard icon={Blender} name='Blender' summary='A 3D modeling app where I have created and rendered all models'></SoftwareCard>
+          <SoftwareCard icon={Blender} name='Blender' summary='A 3D modeling app where I have created and rendered all the models'></SoftwareCard>
         </div>
       </div>
       
